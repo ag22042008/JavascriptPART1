@@ -1,7 +1,7 @@
 console.log("HITESH CHOUDHary");
 //javascript is a dynamically typed language
 "use strict"; // treat all JS code as newer version LIKE JISSE OLDER VERSION KA CODE KHARAB NA HO OR COMPLETE HO JAYE
-// alert( 3 + 3) // we are using nodejs, not browser
+// alert( 3 + 3) // we are using nodejs, not browser SO IT CAUSES AN ERROR 
 
 console.log(3 
     +
