@@ -8,7 +8,7 @@ const scoreValue = 100.3
 const isLoggedIn = false
 const outsideTemp = null // this means empty only so thats not 0 thats why its typeof object
 let userEmail;
-console.log(typeof(userEmail));
+console.log(typeof(userEmail));//typeof undefined
 const id = Symbol('123')//to uniquely identify each element will be used in projects
 const anotherId = Symbol('123')//but will always generate new symbols even for same type
 
@@ -25,4 +25,8 @@ const details={
     name:"aditya",
     class:"csds1",
     rno:23121,
+}
+//we can use function to store it in a variable also
+const myFunction = function(){
+    console.log("Hello world");
 }
