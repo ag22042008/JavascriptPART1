@@ -21,4 +21,23 @@ const hundreds=10000000
  console.log(hundreds.toLocaleString('en-IN')); //like when we are not fully counting the zeroes of our variable so it seperates 0 with help of a commaa en-in indicates in indian style commas seperated as  default style is usa 
  //Converts a number to a string by using the current or specified locale
 //-----------------------------------maths--------------------//
-console.log(Math);//not much detailed print here but will be there on console 
+//this is an inbult library in javascript and very useful
+// console.log(Math);//not much detailed print here but will be there on console  
+// console.log(Math)
+// console.log(Math.abs(-4))//just converts negative  integers to positive ones and positive ones does nothing
+// console.log(Math.round(3.4))//rounds to integer acc to decimal value
+// console.log(Math.round(4.9))
+// console.log(Math.ceil(4.9))//just like ceiling of a no greater no than 4
+// console.log(Math.floor(4.7))
+// console.log(Math.sqrt(4))
+
+//imp use of Math.random fn 
+console.log(Math.random());//ITS VALUE ONLY RANGES FROM 0 TO 1 
+console.log(Math.floor((Math.random()*10) +1))//MIN VALUE IS 1 NOW FLOOR  ROUNDS ITT OFF TO NEAREST INT
+//BUT WE ARE DESIRED TO FIND IN A RANGE LIKE 1-6 FOR A DICE SO IF WE MULTIPLY BY 10 ITS SHIFTS TO RIGHT SIDE ONE PLACE AND AGAR 0.09 IT WILL RESULT IN 0  SO BUT TO MAKE IT MORE READEABLE WE USE ()
+// NOW IF WE WANT IN BTW A RANGE 
+const min=10;
+const max=60;
+console.log("imp trick formula")
+console.log(Math.floor((Math.random()*(max-min+1 ))+min));
+//max-min+1 means this will help in decidingthe range of random +1 to avoid 0 and  min + ki itni value chaiye hi
